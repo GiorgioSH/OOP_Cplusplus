@@ -1,0 +1,53 @@
+# depslib dependency file v1.0
+1638290256 source:/home/apprenant/Documents/IT_Exo/main.cpp
+	<iostream>
+	<Person.h>
+	<Creature.h>
+	<Gender.h>
+	<Dog.h>
+	<iostream>
+	<ctime>
+	<new>
+	<string>
+	<stdio.h>
+
+1638282755 source:/home/apprenant/Documents/IT_Exo/src/Person.cpp
+	"Person.h"
+	<string>
+
+1638287049 /home/apprenant/Documents/IT_Exo/include/Person.h
+	<ctime>
+	"Creature.h"
+	"Gender.h"
+	<iostream>
+
+1638266908 /home/apprenant/Documents/IT_Exo/include/LivingBeing.h
+	<iostream>
+
+1638267117 source:/home/apprenant/Documents/IT_Exo/src/LivingBeing.cpp
+	"LivingBeing.h"
+	<string>
+
+1638374431 /home/apprenant/Documents/IT_Exo/include/Creature.h
+	<iostream>
+	<Gender.h>
+
+1638280624 source:/home/apprenant/Documents/IT_Exo/src/Creature.cpp
+	"Creature.h"
+	<string>
+
+1638289683 source:/home/apprenant/Documents/IT_Exo/src/Dog.cpp
+	"Dog.h"
+	<string>
+
+1638289576 /home/apprenant/Documents/IT_Exo/include/Dog.h
+	<Creature.h>
+	<iostream>
+
+1638280675 /home/apprenant/Documents/IT_Exo/include/Gender.h
+	<iostream>
+
+1638279892 source:/home/apprenant/Documents/IT_Exo/src/Gender.cpp
+	"Gender.h"
+	<string>
+
