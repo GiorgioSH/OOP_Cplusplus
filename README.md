@@ -8,7 +8,4 @@ Once the project is compiled and run it asks user to enter different information
 
 Classes present in the project :
 
--> Creature 
--> Person 
--> Dog
--> Gender
+Creature, Person, Dog,Gender
