@@ -36,12 +36,12 @@ int main()
     int renseignés par l'utilisateur et renvoie une date sous format de string
     */
     User1.getdate(User1.birthday, User1.birthmonth, User1.birthyear);
-    cout<<"Your firstname:"+User1.firstName+"\nYour lastname:"+User1.lastName+"\nYour date:"+User1.res+"\n";
+    cout<<"Your firstname: "+User1.firstName+"\nYour lastname: "+User1.lastName+"\nYour date: "+User1.res+"\n";
 
     //EXEMPLE AVEC USER2
     //ici on utilise un autre constructeur de la classe Person de type static qui prend 2 paramètres
     Person User2("jack", "locenid");
-    cout<<"User2 name :"<< User2.firstName<<endl;
+    cout<<"User2 name: "<< User2.firstName<<endl;
 
     //EXEMPLE AVEC USER3
     //ici on utilise un autre constructeur de la classe Person de type dynamique
@@ -69,12 +69,12 @@ int main()
     string temporaryname;
     string temporaryspecies;
 
-    cout<<"Enter your dogs name:"<<endl;
+    cout<<"Enter your dogs name: "<<endl;
     cin>>temporaryname;
-    cout<<"Enter your dogs specie:"<<endl;
+    cout<<"Enter your dogs specie: "<<endl;
     cin>>temporaryspecies;
     Dog *UsersDog = new Dog(temporaryname,temporaryspecies);
-    cout<<"your dogs name:"+UsersDog->getfirstname()<<endl;
+    cout<<"your dogs name: "+UsersDog->getfirstname()<<endl;
 
     cout<<"Your dogs says"+UsersDog->bark()<<endl;
     string tempSpecie;
@@ -87,7 +87,7 @@ int main()
         //Acces au setteur pour donner une nouvelle valeur
         UsersDog->setspecie(tempSpecie);
         //Acces au getteur pour aller chercher la nouvelle valeur
-        cout<<"your dogs new specie is"+UsersDog->getspecie()<<endl;
+        cout<<"your dogs new specie is: "+UsersDog->getspecie()<<endl;
     }
 
     cout<<"END OF THE SHOW";

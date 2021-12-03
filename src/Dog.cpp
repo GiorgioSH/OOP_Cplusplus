@@ -28,6 +28,10 @@ string Dog::bark(){
 
 string Dog::setspecie(string userdogsspecie){
     this->species = userdogsspecie;
+
+
+    return this->species;
+
 }
 
 string Dog::getspecie(){
